@@ -4,13 +4,23 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+
+
 html {
-  font-family: sans-serif;
+  font-family: adobeLight;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0;
+
+  /*For font*/
+    font-family: adobeLight;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 1000;
 }
 article,
 aside,
@@ -261,16 +271,19 @@ th {
   }
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  font-family: 'adobeLight';
+  src: url(../fonts/Abode_Light/Abode-Light.woff);
+
+  src: url('../fonts/Abode_Light/Abode-Light.eot');
+  src: url('../fonts/Abode_Light/Abode-Light.woff') format('woff'), url('../fonts/Abode_Light/Abode-Light.ttf') format('truetype'), url('../fonts/Abode_Light/Abode-Light.svg') format('svg');
+
 }
 .glyphicon {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: 'adobeLight';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -1082,7 +1095,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: adobeLight;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1532,7 +1545,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: adobeLight;
 }
 code {
   padding: 2px 4px;
@@ -5993,7 +6006,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: adobeLight;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;
@@ -6112,7 +6125,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: adobeLight;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
@@ -6381,7 +6394,7 @@ button.close {
 .carousel-control .icon-next {
   width: 20px;
   height: 20px;
-  font-family: serif;
+  font-family: adobeLight;
   line-height: 1;
 }
 .carousel-control .icon-prev:before {
@@ -6758,3 +6771,43 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+footer
+{
+    background-color:#4A148C;
+    color: #9649CB;
+    clear:both;
+    text-align:left;
+    padding:2%;
+    border-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 8%;
+    height: 50px;
+    bottom: 0;
+    display: block;
+    z-index: -1;
+    height: 100px;
+}
+
+/*html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+#header {
+  background:#ededed;
+  padding:10px;
+}
+#content {
+  padding-bottom:100px; /* Height of the footer element */
+  

@@ -1,0 +1,24 @@
+.content-section {
+  height: 500px;
+  padding-top: 100px;
+}
+
+.content-section .row {
+  border-top: 10px solid indigo;
+}
+
+@media(min-width:767px) {
+  .content-section {
+    padding-top: 100px;
+  }
+}
+
+.header .navbar-nav {
+  width: 100%;
+}
+
+.header .navbar-nav li {
+  text-align: center;
+  text-transform: uppercase;
+  width: 20%;
+}

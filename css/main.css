@@ -1,4 +1,15 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
 .intro {
   background: url('../images/spectra-background.jpg');
   height: 700px;
+}
+
+.logo {
+  height: 350px;
+  margin-top: 150px;
+  width: 100%;
 }

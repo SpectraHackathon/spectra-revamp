@@ -1,0 +1,35 @@
+footer {
+  background: indigo;
+  color: white;
+  margin-top: 100px;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.copyright {
+  font-weight: 400;
+  margin-left: 60px;
+}
+
+.external-info {
+  float: left;
+}
+
+.links {
+  list-style: none;
+  overflow: hidden;
+}
+
+.links li {
+  float: left;
+}
+
+.links li a {
+  color: white;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.social-media {
+  float: right;
+}

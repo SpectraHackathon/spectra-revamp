@@ -73,10 +73,26 @@ body {
   color: indigo;
 }
 
+.content-section input {
+    text-align: center;
+    border: 1px solid #888;
+    border-radius: 2px;
+    color: black;
+    font-size: 14px;
+    height: 35px;
+    text-align: center;
+    width: 250px;
+}
+
 .content-section p {
   font-size: 20px;
   font-weight: 300;
   margin: 25px 0;
+}
+
+.content-section .btn {
+  border-color: black;
+  color: black;
 }
 
 .content-section .row {

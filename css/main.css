@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+
+/* HEADER */
+
+.navbar-fixed-top {
+  background: black;
+  opacity: 0.85;
+}
+
+.navbar-fixed-top .navbar-nav {
+  width: 100%;
+}
+
+.navbar-fixed-top .navbar-nav li {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navbar-fixed-top .navbar-nav a {
+  padding: 20px 0;
+}
+
+.navbar-fixed-top .navbar-nav li:hover a,
+.navbar-fixed-top .navbar-nav li.active a {
+  color: deeppink !important;
+}
+
+
+/* LOGO */
+
+.jumbotron {
+  background: url('../images/spectra-background.jpg');
+  height: 400px;
+}
+
+.logo {
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* Small */
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    height: 500px;
+  }
+
+  .logo {
+    margin-top: 125px;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    height: 700px;
+  }
+
+  .logo {
+    margin-top: 150px;
+  }
+}
+
+
+/* CONTENT */
+
+.content-section h2 {
+  color: indigo;
+}
+
+.content-section p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 25px 0;
+}
+
+.content-section .row {
+  border-top: 10px solid indigo;
+  padding: 25px;
+}
+
+.content-section {
+  min-height: 300px;
+  padding-top: 100px;
+}
+
+
+/* FOOTER */
+
+footer {
+  background: indigo;
+  color: white;
+  margin-top: 100px;
+  padding: 30px 0;
+}
+
+footer ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.btn-social-icon {
+  margin-right: 10px;
+}
+
+.social-icons {
+  float: left;
+}
+
+/* Small */
+@media screen and (min-width: 768px) {
+  footer .btn-social-icon {
+    margin-left: 10px;
+  }
+
+  footer .social-icons {
+    float: right;
+  }
+}
+
+.copyright {
+  font-weight: 400;
+  margin-top: 10px;
+}

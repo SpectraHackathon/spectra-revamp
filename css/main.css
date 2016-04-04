@@ -148,8 +148,8 @@ footer a:hover {
 }
 
 footer a {
-  color: white;
-  font-size: 18px;
+  color: white !important;
+  font-size: 20px;
   margin-right: 20px;
 }
 
@@ -159,6 +159,10 @@ footer a {
 
 .social-icons {
   float: left;
+}
+
+.social-icons a {
+  font-size: 30px;
 }
 
 /* Small */
@@ -174,5 +178,4 @@ footer a {
 
 .copyright {
   font-weight: 400;
-  margin-top: 10px;
 }

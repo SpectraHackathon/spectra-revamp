@@ -126,6 +126,20 @@ body {
 }
 
 
+/* REGISTER */
+
+#mce-EMAIL {
+  border: 1px solid #ADADAD;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+}
+
+#mc-embedded-subscribe {
+  padding: 8px 20px;
+}
+
+
 /* FOOTER */
 
 footer {

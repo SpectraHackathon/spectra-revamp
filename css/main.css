@@ -68,6 +68,11 @@ body {
 
 /* CONTENT */
 
+.content-section {
+  min-height: 700px;
+  padding-top: 60px;
+}
+
 .content-section h2 {
   color: indigo;
 }
@@ -78,14 +83,9 @@ body {
   margin: 25px 0;
 }
 
-.content-section .row {
+.content-section .row-content {
   border-top: 10px solid indigo;
-  padding: 25px;
-}
-
-.content-section {
-  min-height: 300px;
-  padding-top: 100px;
+  padding: 60px;
 }
 
 
@@ -98,12 +98,39 @@ body {
 }
 
 
+/* SCHEDULE */
+
+.nav-tabs {
+  border-bottom: 5px solid deeppink;
+  margin-top: 30px;
+}
+
+.nav-tabs li a {
+  background: transparent !important;
+  border: none !important;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-tabs li:hover a,
+.nav-tabs li.active a:hover,
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus {
+  color: deeppink;
+}
+
+.tab-pane {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 40px 0;
+}
+
+
 /* FOOTER */
 
 footer {
   background: indigo;
   color: white;
-  margin-top: 100px;
   padding: 30px 0;
 }
 

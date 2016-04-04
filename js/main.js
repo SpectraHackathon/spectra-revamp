@@ -11,6 +11,7 @@ function initializeMap() {
   var mapContainer = document.getElementById("map");
   var mapOptions = {
     center: siliconValley,
+    scrollwheel: false,
     zoom: 11
   };
   var map = new google.maps.Map(mapContainer, mapOptions);

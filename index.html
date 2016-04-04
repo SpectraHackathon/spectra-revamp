@@ -14,7 +14,7 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
 
-  <body data-spy="scroll">
+  <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -29,16 +29,16 @@
       <div id="navbar" class="navbar-collapse collapse">
         <div class="row">
           <ul class="nav navbar-nav">
-            <li class="col-xs-12 col-sm-3 hackathon-tab">
+            <li class="col-xs-12 col-sm-3">
               <a href="#hackathon">Hackathon</a>
             </li>
-            <li class="col-xs-12 col-sm-3 location-tab">
+            <li class="col-xs-12 col-sm-3">
               <a href="#location">Location</a>
             </li>
-            <li class="col-xs-12 col-sm-3 schedule-tab">
+            <li class="col-xs-12 col-sm-3">
               <a href="#schedule">Schedule</a>
             </li>
-            <li class="col-xs-12 col-sm-3 register-tab">
+            <li class="col-xs-12 col-sm-3">
               <a href="#register">Register</a>
             </li>
           </ul>
@@ -57,7 +57,7 @@
     </header>
 
     <section id="hackathon" class="content-section text-center">
-      <div class="row">
+      <div class="row row-content">
         <div class="col-lg-8 col-lg-offset-2">
           <h2>Exporing the Tech Space Together</h2>
           <p>
@@ -76,7 +76,7 @@
     </section>
 
     <section id="location" class="content-section text-center">
-      <div class="row">
+      <div class="row row-content">
         <div class="col-xs-12">
           <h2>San Francisco Bay Area</h2>
           <p>
@@ -88,24 +88,46 @@
     </section>
 
     <section id="schedule" class="content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+      <div class="row row-content">
+        <div class="col-lg-8 col-lg-offset-2 row">
           <h2>Schedule</h2>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          </p>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          </p>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          </p>
+          <ul class="nav nav-tabs" id="tabs">
+            <li class="col-xs-4 active">
+              <a href="#day1" data-target="#day1" data-toggle="tab">
+                <h4>DAY 1</h4>
+                <h5>Friday, July 22</h5>
+              </a>
+            </li>
+            <li class="col-xs-4">
+              <a href="#day2" data-target="#day2" data-toggle="tab">
+                <h4>DAY 2</h4>
+                <h5>Saturday, July 23</h5>
+              </a>
+            </li>
+            <li class="col-xs-4">
+              <a href="#day3" data-target="#day3" data-toggle="tab">
+                <h4>DAY 3</h4>
+                <h5>Sunday, July 24</h5>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="day1">
+              Day 1 details coming soon!
+            </div>
+            <div class="tab-pane" id="day2">
+              Day 2 details coming soon!
+            </div>
+            <div class="tab-pane" id="day3">
+              Day 3 details coming soon!
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="register" class="content-section text-center">
-      <div class="row">
+      <div class="row row-content">
         <div class="col-lg-8 col-lg-offset-2">
           <h2>Register</h2>
           <p class="description">
